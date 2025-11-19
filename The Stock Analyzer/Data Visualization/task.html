@@ -1,0 +1,43 @@
+<div class="step-text">
+<h5 id="description">Description</h5><p>In this final stage, you will empower the AI assistant to create visual representations of stock market data through plots and charts. Your task involves creating prompts that direct the assistant in generating visualizations, handling the resulting image file by saving it as a binary file, and finally outputting the unique file ID associated with the generated image.</p><h5 id="objectives">Objectives</h5><p>With the help of Code Interpreter tool from the previous stage, it's pretty easy to create visuals. Here's how you would go about it.</p><p><strong>1. Write prompt for visuals:</strong> Design prompts that instruct the AI assistant on how to create plots and charts from the stock market data: </p><pre><code class="language-no-highlight">"Retrieve and visualize the monthly time series data for the stock symbol 'AAPL' for the latest 3 months."</code></pre><p><strong>2. Handle generated file: </strong>Code Interpreter tool will generate a file and you can access the <a href="https://platform.openai.com/docs/assistants/tools/code-interpreter#passing-files-to-code-interpreter" rel="noopener noreferrer nofollow" target="_blank">generated file ID</a> from the thread messages content. Print the file ID and  write the binary file as an image to store the generated visualization. The file name should be <code class="java">stock-image.png</code>.</p><h5 id="examples">Examples</h5><p>Example1:</p><pre><code class="language-no-highlight">Matching `stock_analyzer_assistant` assistant found, using the first matching assistant with ID: asst_ixRCiWze9eII7yiW48BGfysf
+Thread created with ID: thread_frQge4YOCEeiW9buF0GsYq43
+Run initiated with ID: run_YjUdZgr2NqRDfgfxIhwGDHKV
+Waiting for response from `stock_analyzer_assistant` Assistant. Elapsed time: 0.00 seconds
+Tool call with ID and name:  call_k1AH8gXA5fzPHn4GKtIMK2ja retrieve_stock_data
+Waiting for response from `stock_analyzer_assistant` Assistant. Elapsed time: 20.89 seconds
+Done! Response received in 41.14 seconds.
+
+# Messages
+user: Retrieve and visualize the monthly time series data for the stock symbol 'AAPL' for the latest 3 months.
+assistant: The monthly time series data for the stock symbol 'AAPL' for the latest 3 months is as follows:
+
+1. March 2024
+   - Open: $185.49
+   - High: $198.73
+   - Low: $185.18
+   - Close: $191.73
+   - Volume: 37,816,338
+
+2. February 2024
+   - Open: $183.63
+   - High: $188.95
+   - Low: $178.75
+   - Close: $185.03
+   - Volume: 88,679,550
+
+3. January 2024
+   - Open: $162.83
+   - High: $196.90
+   - Low: $157.88
+   - Close: $183.66
+   - Volume: 128,121,557
+
+Let's visualize this data to better understand the stock performance over the last 3 months.
+assistant: file-7b4Iwb5Wl0UCECP3qM8P8enQ
+
+Step: step_GUXryR7yNI5KRPMLNZDWqCGR
+Step: step_ofRowtQgcTAsQcXOaRjHDyjv
+Step: step_oUlWH9ZeSNBftODNf6XJajBU
+Step: step_GfRtrneGxBwmKOiUw5pruXXZ
+</code></pre><p>Example2: <em>The generated image - (stock-image.png)</em></p><p><picture><source media="(max-width: 480px)" srcset="https://ucarecdn.com/75a053ee-f13b-4b57-92c2-dba75dfa68f5/-/stretch/off/-/resize/480x/-/format/webp/ 1x,https://ucarecdn.com/75a053ee-f13b-4b57-92c2-dba75dfa68f5/-/stretch/off/-/resize/960x/-/format/webp/ 2x,https://ucarecdn.com/75a053ee-f13b-4b57-92c2-dba75dfa68f5/-/stretch/off/-/resize/1440x/-/format/webp/ 3x" type="image/webp"/><source media="(max-width: 800px)" srcset="https://ucarecdn.com/75a053ee-f13b-4b57-92c2-dba75dfa68f5/-/stretch/off/-/resize/800x/-/format/webp/ 1x,https://ucarecdn.com/75a053ee-f13b-4b57-92c2-dba75dfa68f5/-/stretch/off/-/resize/1600x/-/format/webp/ 2x,https://ucarecdn.com/75a053ee-f13b-4b57-92c2-dba75dfa68f5/-/stretch/off/-/resize/2400x/-/format/webp/ 3x" type="image/webp"/><source srcset="https://ucarecdn.com/75a053ee-f13b-4b57-92c2-dba75dfa68f5/-/stretch/off/-/resize/1100x/-/format/webp/ 1x,https://ucarecdn.com/75a053ee-f13b-4b57-92c2-dba75dfa68f5/-/stretch/off/-/resize/2200x/-/format/webp/ 2x,https://ucarecdn.com/75a053ee-f13b-4b57-92c2-dba75dfa68f5/-/stretch/off/-/resize/3000x/-/format/webp/ 3x" type="image/webp"/><img alt="" height="1180" src="https://ucarecdn.com/75a053ee-f13b-4b57-92c2-dba75dfa68f5/" width="2369"/></picture></p>
+</div>

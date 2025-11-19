@@ -1,0 +1,58 @@
+hyperskill_project:
+  id: 452
+  ide_files: https://hyperskill.org/api/projects/452/additional-files/additional_files.json
+  is_template_based: false
+  use_ide: true
+  environment: unittest
+update_date: "Thu, 01 Jan 1970 00:00:00 UTC"
+stages:
+  - id: 2617
+    step: 45555
+    is_completed: true
+  - id: 2618
+    step: 45556
+    is_completed: false
+  - id: 2619
+    step: 45557
+    is_completed: false
+  - id: 2620
+    step: 45558
+    is_completed: false
+topics:
+  0:
+    - title: Introduction to prompt engineering
+      theory_id: 43279
+    - title: Zero-shot and few-shot prompting
+      theory_id: 45098
+    - title: "Problem decomposition prompting (LtM, PaS, PoTh)"
+      theory_id: 44657
+    - title: Chain prompts
+      theory_id: 45096
+    - title: Chain-of-thought prompting
+      theory_id: 44767
+    - title: Reason and act (ReAct) prompting
+      theory_id: 45335
+    - title: Introduction to OpenAI API
+      theory_id: 43699
+    - title: Introduction to the Assistants API
+      theory_id: 45396
+    - title: Libraries
+      theory_id: 8504
+    - title: Frameworks
+      theory_id: 6701
+    - title: Introduction to API
+      theory_id: 17007
+    - title: Working with environment variables and .env files
+      theory_id: 41735
+  1:
+    - title: Function calls with chat completions
+      theory_id: 45477
+    - title: Function calling with the Assistant
+      theory_id: 46435
+  3:
+    - title: Numerical and categorical data
+      theory_id: 24686
+    - title: "Diagrams: how to build and read"
+      theory_id: 40462
+    - title: Histograms and bar charts
+      theory_id: 29883

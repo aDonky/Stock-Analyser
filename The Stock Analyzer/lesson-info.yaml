@@ -1,0 +1,7 @@
+type: framework
+content:
+  - Assistant Creation
+  - Data Retrieval
+  - Data Analysis
+  - Data Visualization
+current_task: 1

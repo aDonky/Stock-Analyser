@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# PyCharm project files
+.idea/
+*.iml
+
+# macOS junk
+.DS_Store

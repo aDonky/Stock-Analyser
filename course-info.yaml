@@ -1,0 +1,19 @@
+type: hyperskill
+title: The Stock Analyzer
+language: English
+summary: "<div>\r\n<p>With this project, you will utilize the OpenAI API to develop\
+  \ a specialized assistant for analyzing and visualizing stock market data, use the\
+  \ OpenAI client to implement knowledge retrieval, code interpretation, and function\
+  \ calling functionalities within the assistant, and implement prompt engineering\
+  \ strategies to direct the assistant in processing stock data and creating visual\
+  \ plots.</p>\r\n\r\n<p>\_</p>\r\n</div><br/><br/>Learn more at <a href=\"https://hyperskill.org/projects/452?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card\"\
+  >https://hyperskill.org/projects/452</a>"
+programming_language: Python
+environment: unittest
+content:
+  - The Stock Analyzer
+additional_files:
+  - name: .idea/inspectionProfiles/profiles_settings.xml
+  - name: requirements.txt
+mode: Study
+yaml_version: 2
